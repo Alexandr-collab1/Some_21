@@ -13,3 +13,4 @@ def wirhdraw(self,number):
         print(f"На вашому рахунку недостатньо коштів для списування {number} грн. У вас {self.balance} грн")
 Person_1 = BankAccount(7535566934, 900)
 deposit(Person_1,400)
+wirhdraw(Person_1,1000)
