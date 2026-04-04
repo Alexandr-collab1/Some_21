@@ -1,6 +1,6 @@
-from Base import Database
-from poshyk import Parser
-from front import AppInterface
+from Project.Base import Database
+from Project.poshyk import Parser
+from Project.front import AppInterface
 
 def run():
 
