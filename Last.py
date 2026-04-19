@@ -17,7 +17,6 @@ def apply_mask(original_img_path, mask_img_path):
     print(f"Знайдено патернів: {len(faces)}")
 
     for (x, y, w, h) in faces:
-        # Змінюємо розмір маски під розмір знайденого патерна
         resized_mask = cv2.resize(mask, (w, h))
 
         img[y:y+h, x:x+w] = resized_mask
